@@ -1,0 +1,15 @@
+{
+  "short_name": "Mike Wilcox",
+  "name": "Mike Wilcox",
+  "icons": [
+    {
+      "src":"mw.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#2B303B",
+  "theme_color": "#2B303B",
+  "display": "standalone"
+}
