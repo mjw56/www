@@ -60,10 +60,6 @@ body {
   margin: 30px 0;
 }
 
-.piece .screenshots img:last-child {
-  margin-bottom: 200px;
-}
-
 @media (max-width: 760px) {
   .piece .description {
     max-width: 75vw;
