@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #363b4e;
+}
+
+.piece {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.piece p {
+  color: #fffff2;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.piece a {
+  text-decoration: none;
+  color: hotpink;
+}
+
+.piece a:hover {
+  opacity: 0.8;
+}
+
+.piece .description {
+  text-align: left;
+  max-width: 50vw;
+  line-height: 1.5;
+}
+
+.piece .screenshots {
+  display: flex;
+  flex-direction: column;
+  align-items: cener;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.piece .screenshots img {
+  width: 80vw;
+}
+
+@media (max-width: 760px) {
+  .piece .description {
+    max-width: 75vw;
+  }
+}
+
+.headfones-logo {
+  height: 210px;
+}
