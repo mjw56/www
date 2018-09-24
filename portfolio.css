@@ -33,6 +33,19 @@ body {
   line-height: 1.5;
 }
 
+.piece .github {
+  width: 50px;
+  height: 50px;
+  margin: 30px;
+  fill: darkorange;
+  transition: fill 1s ease-in-out;
+}
+
+.piece .github:hover {
+  cursor: pointer;
+  fill: darksalmon;
+}
+
 .piece .screenshots {
   display: flex;
   flex-direction: column;
