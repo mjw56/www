@@ -3,7 +3,7 @@
 
 <head>
   <meta charset='utf-8'>
-  <title>Mike Wilcox</title>
+  <title>Mike Wilcox Portfolio</title>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name='description' content='Links and info for Mike Wilcox'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -55,10 +55,15 @@
       </g>
     </svg>
 
-    <p class="description"><a href="https://headfon.es">headfon.es</a> is a mini Spotify clone. It leverages the
-      Spotify API for library data and the Spotify SDK for playback. The server setup is a Node.JS server running
-      express with mongoDB. API fetches are wrapped in a GraphQL server, mapping the server data to client components
-      using TypeScript for development.</p>
+    <p class="description"><a href="https://headfon.es">headfon.es</a> is a ground-up implementation of the Spotify web
+      player. The main features are search, albums, playlists and a custom theme selector. Under the hood it leverages
+      the Spotify API for library data and the <a href="https://developer.spotify.com/documentation/web-playback-sdk/">Web
+        Playback SDK</a> for playback.<br><br>
+
+      On the server side is a Node.JS server running express with mongoDB. API fetches are wrapped in a GraphQL server,
+      mapping the server data to client components
+      using TypeScript for development. I wrote a <a href="https://medium.com/@mjw56/graphql-authentication-using-oauth-json-web-tokens-bdb829602a5c">medium
+        article</a> discussing how I implemented authentication.</p>
 
     <svg class="github" onclick="openInNewTab('https://github.com/mjw56/headfon.es');" xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="438.549px" height="438.549px"
